@@ -1,0 +1,132 @@
+
+/*shopping cart style*/
+
+.cart-item{
+    width:690px;
+    border: 2px dotted #8e755e;
+    padding: 5px;
+}
+
+.cart{
+    width:700px;
+    padding: 3px;
+    border: 1px solid #c5ab92;
+    margin-left: 8px;
+}
+
+.shoppingcart{
+    color: #473a2f;
+    font-size: 29px;
+    margin-left: 8px;
+
+}
+
+/*delete button*/
+.delete{
+    border: 1px solid #8e755e;
+    font-size: 14px;
+    background-color: #d1c4b7;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #473a2f;
+    padding: 2px;
+    border-radius: 10%;
+    margin-left: 8px;
+  }
+  .delete:hover{
+    text-decoration: none;
+  }
+.cart-name{
+    color: #8e755e;
+    font-size: 22px;
+    padding-left: 10px;
+}
+  
+.cart-qty{
+    color: #473a2f;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.cart-price{
+    color: #473a2f;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.total{
+    color: #8e755e;
+    font-size: 27px;
+}
+
+
+/*pop up form*/
+
+.checkout-button{
+    background-color: rgb(138, 97, 72);
+    color: rgb(227, 212, 212);
+    padding: 14px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    bottom: 0px;
+    width: 300px;
+    border: 2px solid rgb(169, 140, 112);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-left: 8px;
+  }
+  
+  /* Payment form will display when clicked */
+  .form-hidden {
+      display: none;
+      position: static;
+      border-radius: 2%;
+      border: 2px solid #957878;
+      z-index: 8;
+    }
+  
+  /* styles of check out form */
+  .checkout-form {
+    padding: 12px;
+    border-radius: 2%;
+    background-image: linear-gradient(to bottom right, rgb(234, 218, 178), rgb(253, 240, 240));
+  }
+  
+  /* styles of input */
+  .checkout-form input[type=text], .checkout-form input[type=password], .checkout-form input[type=number]{
+    width: 50%;
+    padding: 6px;
+    margin: 4px 2px 11px 2px;
+    border: 1px solid #957878;
+    background: #fffefe;
+    font-size: 13px;
+    box-sizing: border-box;
+  }
+  
+  .checkout-form select{
+      width: 23.5%;
+  }
+  
+  .checkout-form .btn {
+    background-color: #795c3e;
+    color: rgb(233, 233, 233);
+    padding: 12px 18px;
+    margin-left: 80px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 25%;
+    margin-bottom:13px;
+    border: 2px solid #795c3e;
+  }
+  
+  .checkout-form .back {
+    background-color: rgb(172, 122, 122);
+  }
+  

@@ -1,0 +1,49 @@
+.previous{
+    font-size: 30px;
+    color: rgb(137, 107, 62);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date{
+    font-size: 12px;
+    color: brown;
+}
+
+.total{
+    font-size: 18px;
+    color: rgb(161, 125, 75);
+}
+
+.fooditem{
+    font-size: 15px;
+    color: rgb(121, 102, 76);
+    padding: 0;
+}
+
+.fooditem-title{
+    font-size: 20px;
+    color: rgb(121, 102, 76);
+}
+.section {
+    background-color: rgb(240, 234, 214);
+    color: rgb(91, 67, 46);
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid rgb(228, 200, 200);
+    transition: 0.7s;
+  }
+  
+  .active, .section:hover {
+    background-color: rgb(251, 240, 240); 
+  }
+  
+  .content {
+    padding:5px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
