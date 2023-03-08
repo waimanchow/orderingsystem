@@ -8,6 +8,7 @@ CSS
 Javascript
 MySQL
 PHP
+Bootstrap
 
 Tools Used:
 XAMPP
